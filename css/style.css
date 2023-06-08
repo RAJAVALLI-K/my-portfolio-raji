@@ -636,6 +636,7 @@ h2 {
     color: white;
     padding: 6px 0px;
     text-align: center;
+    font-family: 'Eagle Lake', cursive;
 }
 
 .box {
@@ -664,6 +665,7 @@ h2 {
     /* justify-content: center; */
     padding: 2px 180px !important;
     gap: 5px;
+    font-family: 'Eagle Lake', cursive;
 }
 
 .cols:hover {
