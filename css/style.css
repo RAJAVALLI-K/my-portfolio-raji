@@ -8,6 +8,18 @@ a {
     color: white;
 }
 
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+html::-webkit-scrollbar-track{
+    background: #fff6f6;
+    border-radius: .4rem;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #c80a48;
+    border-radius: .4rem;
+}
+
 /* nave-bar */
 
 li {
