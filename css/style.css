@@ -8,15 +8,17 @@ a {
     color: white;
 }
 
-html::-webkit-scrollbar{
-    width: .8rem;
+html::-webkit-scrollbar {
+    width: .5rem;
 }
-html::-webkit-scrollbar-track{
+
+html::-webkit-scrollbar-track {
     background: #fff6f6;
     border-radius: .4rem;
 }
-html::-webkit-scrollbar-thumb{
-    background-color: #c80a48;
+
+html::-webkit-scrollbar-thumb {
+    background-color: #6b6d64;
     border-radius: .4rem;
 }
 
@@ -224,6 +226,9 @@ ul li a i {
     padding: 10px 0px;
 }
 
+.header h2 span {
+    font-family: 'Great Vibes', cursive;
+}
 
 .ban-icon {
     padding: 20px 0px;
@@ -371,15 +376,20 @@ ul li a i {
     border-radius: 5px;
     border: none;
     margin: 10px 0px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
 }
 
 .button button:hover {
     background-color: white;
-    transition: 3s all;
+    transition: 2s all;
 }
 
 .button button:hover .think {
     color: #c80a48;
+    font-weight: bold;
 }
 
 .button {
@@ -643,6 +653,7 @@ h2 {
     color: #fff;
     letter-spacing: 3px;
     text-align: center;
+
 }
 
 .cols p {
